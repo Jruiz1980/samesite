@@ -1,6 +1,6 @@
 import http from 'http';
 
-const PORT = 3001;
+const PORT = process.env.PORT || 3000;
 
 const server = http.createServer((req, res) => {
     const cookieString = 'session_token=authenticated_user_123; Max-Age=3600; HttpOnly; SameSite=Strict';
