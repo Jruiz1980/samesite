@@ -1,15 +1,10 @@
 {
-  "name": "samesite",
+  "name": "same-site-demo-server",
   "version": "1.0.0",
-  "description": "",
+  "description": "SameSite=Strict in Node.js",
   "main": "server.mjs",
+  "type": "module",
   "scripts": {
     "start": "node server.mjs"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "express": "^4.19.2"
   }
 }
